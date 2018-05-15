@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
-project(kalkulator_3)
+project(03_tlumacz)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
-add_executable(kalkulator_3 main.cpp)
+add_executable(03_tlumacz main.cpp)
