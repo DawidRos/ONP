@@ -50,7 +50,7 @@ int main()
                     break;
                 default:
                     add_to_exit(odp, i_odp, tab[i]);
-                    if (i == 0 || tab[i] == '.' || tab[i] == ',' || isdigit(tab[i + 1]) || tab[i + 1] == ',' ||
+                    if (tab[i] == '.' || tab[i] == ',' || isdigit(tab[i + 1]) || tab[i + 1] == ',' ||
                         tab[i + 1] == '.')
                         --i_odp;
                     break;
